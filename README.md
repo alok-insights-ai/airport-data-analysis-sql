@@ -32,6 +32,13 @@ The dataset was designed to mimic real-world airline statistics. Queries cover *
 - Joins, Group By, CTEs, Subqueries  
 
 ---
+## 📂 Dataset
+The project uses a simulated dataset of airports, routes, and monthly flight stats.  
+- `Airport_Detailsss` → Airport codes, cities, populations  
+- `Route_detailss` → Routes with distance  
+- `Monthly_FlightStats` → Flights, passengers, seats by month  
+
+👉 Download the dataset:(your-link-here)  
 
 ## 📊 Sample Query
 ```sql
@@ -43,3 +50,4 @@ SELECT route_id, YEAR(fly_date) AS year,
        / LAG(SUM(passengers)) OVER (PARTITION BY route_id ORDER BY YEAR(fly_date))) * 100, 2) AS yoy_growth_percent
 FROM Monthly_FlightStats
 GROUP BY route_id, YEAR(fly_date);
+
