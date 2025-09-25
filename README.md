@@ -40,7 +40,7 @@ The project includes **20+ advanced SQL queries** covering:
 -  Busiest routes  
 -  Correlation with city population  
 
- Full queries in [`Airport_data_Analysis.sql`]()  
+ Full queries in [`Airport_data_Analysis.sql`](https://github.com/alok-insights-ai/airport-data-analysis-sql/blob/main/Airport%20data%20Analysis%20222.sql)  
 
 ## 📊 Sample Query
 ```sql
