@@ -24,8 +24,6 @@ The dataset was designed to mimic real-world airline statistics. Queries cover *
 6. Routes with largest decline in passengers  
 7. Correlation between city population & passengers  
 
-*(See full query list in `Airport_data_Analysis.sql`)*
-
 ---
 
 ##  Tech Stack
