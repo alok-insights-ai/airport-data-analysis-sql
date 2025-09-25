@@ -38,7 +38,7 @@ The project uses a simulated dataset of airports, routes, and monthly flight sta
 - `Route_detailss` → Routes with distance  
 - `Monthly_FlightStats` → Flights, passengers, seats by month  
 
-👉 Download the dataset:(your-link-here)  
+👉 Download the dataset:(https://github.com/alok-insights-ai/airport-data-analysis-sql/blob/main/Airport101.txt)  
 
 ## 📊 Sample Query
 ```sql
