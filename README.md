@@ -12,7 +12,7 @@ The dataset was designed to mimic real-world airline statistics. Queries cover *
 - **Airport_Detailsss** → Airport codes, cities, population  
 - **Route_detailss** → Route IDs, origin, destination, distance  
 - **Monthly_FlightStats** → Flights, passengers, seats by month  
-
+Download the dataset: [HERE](https://github.com/alok-insights-ai/airport-data-analysis-sql/blob/main/Airport101.txt)  
 ---
 
 ##  Key Analyses Performed
@@ -32,13 +32,15 @@ The dataset was designed to mimic real-world airline statistics. Queries cover *
 - Joins, Group By, CTEs, Subqueries  
 
 ---
-##  Dataset
-The project uses a simulated dataset of airports, routes, and monthly flight stats.  
-- `Airport_Detailsss` → Airport codes, cities, populations  
-- `Route_detailss` → Routes with distance  
-- `Monthly_FlightStats` → Flights, passengers, seats by month  
+##  SQL Queries
+The project includes **20+ advanced SQL queries** covering:
+-  Passenger analysis  
+-  Seat utilization  
+-  Year-over-Year growth trends  
+-  Busiest routes  
+-  Correlation with city population  
 
-Download the dataset: [HERE](https://github.com/alok-insights-ai/airport-data-analysis-sql/blob/main/Airport101.txt)  
+ Full queries in [`Airport_data_Analysis.sql`]()  
 
 ## 📊 Sample Query
 ```sql
